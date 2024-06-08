@@ -24,7 +24,7 @@ inset:0;
 object-fit: cover;
 background-size: cover;
 z-index: 99;
-backdrop-filter: hue-rotate(0deg);
+backdrop-filter: hue-rotate(0deg) saturate(2);
 "]{}
 
 
@@ -34,6 +34,6 @@ color:red;
 pointer-events: none;
 position: fixed;
 inset: 0;
-backdrop-filter: saturate(2) blur(25px) brightness(6.7) opacity(0.1);
+backdrop-filter: saturate(2) blur(25px) brightness(3.7) opacity(0.1);
 "]{}
 ```
